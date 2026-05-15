@@ -1,6 +1,7 @@
 //grava usuário no contexto global
 import { UserContext } from "../contexts/userContext";
 import { useInput } from "../hooks/useInput";
+import { useContext } from "react";
 
 function Login(){
     const nomeDoUsuario = useInput();

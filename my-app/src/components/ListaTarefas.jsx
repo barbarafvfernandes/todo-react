@@ -1,6 +1,7 @@
 import Tarefas from './Tarefas'
 import {useState, useEffect, useContext} from 'react';
 import { useInput } from '../hooks/useInput';
+import { UserContext } from '../contexts/userContext';
 
 const API_URL = 'https://crudcrud.com/api/486a919d8b6d4d2b99aa9e25eccf4d16/tarefas';
 
